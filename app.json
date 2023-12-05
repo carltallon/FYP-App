@@ -5,9 +5,21 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "react-native-nfc-manager"
     ],
-    "name": "FYP1",
-    "slug": "FYP1"
+    "name": "eReceipt",
+    "slug": "eReceipt",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "830ff233-cc8d-4e49-bb5b-836c436e4102"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.carlt12.FYP1"
+    }
   }
 }
